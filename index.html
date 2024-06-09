@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto x-devs - Semana do Zero ao Programador Contratado</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+  <header class="cabecalho">
+    <h1>Reis de Israel</h1>
+  </header>
+  <main class="personagens-slider">
+    <button class="btn-seta btn-voltar" id="btn-voltar">
+      <img src="./src/imagens/seta.png" alt="seta para voltar a imagem" />
+    </button>
+
+    <ul class="lista-personagens">
+      <li class="cartao selecionado fundo-1">
+        <h2 class="nome">Saul</h2>
+
+        <img class="imagem-personagem" src="src/imagens/rei saul.png" alt="Saul" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Saul foi o primeiro rei de Israel, ungido por Samuel. Ele começou seu reinado com grande promessa, mas
+            rapidamente caiu em desgraça por desobedecer às ordens de Deus. Ele teve conflitos contínuos com os
+            filisteus e com Davi, que ele via como uma ameaça ao seu trono. Saul acabou se suicidando após uma derrota
+            na batalha contra os filisteus.
+          </p>
+        </div>
+      </li>
+      <li class="cartao fundo-2">
+        <h2 class="nome">Davi</h2>
+
+        <img class="imagem-personagem" src="src/imagens/rei davi.png" alt="Davi" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Davi sucedeu Saul como rei e é considerado um dos maiores reis de Israel. Ele unificou o reino e estabeleceu
+            Jerusalém como sua capital. Davi expandiu o território de Israel e trouxe a Arca da Aliança para Jerusalém.
+            Apesar de seus sucessos militares e administrativos, ele cometeu graves erros pessoais, como seu caso com
+            Bate-Seba e o assassinato de Urias. No entanto, ele é lembrado por seu arrependimento sincero e seu coração
+            voltado para Deus.
+        </div>
+      </li>
+      <li class="cartao fundo-3">
+        <h2 class="nome">Salomão</h2>
+
+        <img class="imagem-personagem" src="src/imagens/rei salomao.png" alt="Salomão" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Salomão, filho de Davi e Bate-Seba, sucedeu seu pai como rei. Ele é famoso por sua sabedoria, riqueza e pela
+            construção do Templo em Jerusalém. Salomão expandiu o reino e fortaleceu suas defesas. No entanto, no final
+            de seu reinado, ele se desviou de Deus, influenciado por suas muitas esposas estrangeiras que adoravam
+            outros deuses. Isso levou à divisão do reino após sua morte.
+          </p>
+        </div>
+      </li>
+      <li class="cartao fundo-4">
+        <h2 class="nome">Roboão</h2>
+
+        <img class="imagem-personagem" src="src/imagens/roboao.png" alt="Roboão" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Roboão, filho de Salomão, tornou-se rei após a morte de seu pai. Seu reinado foi marcado pela divisão do
+            reino em duas partes: o Reino de Judá (sul) e o Reino de Israel (norte). Isso ocorreu devido à sua recusa em
+            aliviar os pesados impostos e trabalhos forçados impostos por Salomão, levando à rebelião das tribos do
+            norte sob Jeroboão.
+          </p>
+        </div>
+      </li>
+      <li class="cartao fundo-5">
+        <h2 class="nome">Acabe</h2>
+
+        <img class="imagem-personagem" src="src/imagens/Acabe.png" alt="Acabe" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Acabe foi um dos reis do Reino de Israel (norte) e é conhecido por sua maldade e idolatria. Ele se casou com
+            Jezabel, uma princesa fenícia, que promoveu o culto a Baal em Israel. Acabe teve vários conflitos com os
+            profetas de Deus, especialmente Elias. Seu reinado foi marcado por guerras constantes, incluindo conflitos
+            com a Síria. Ele morreu em batalha, conforme profetizado por Micaías.
+          </p>
+        </div>
+      </li>
+      <li class="cartao fundo-6">
+        <h2 class="nome">Ezequias</h2>
+
+        <img class="imagem-personagem" src="src/imagens/Ezequias.png" alt="Ezequias" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Ezequias foi um rei do Reino de Judá (sul) e é lembrado por suas reformas religiosas e sua confiança em
+            Deus. Ele destruiu os ídolos e restaurou o culto ao Senhor. Durante seu reinado, Judá foi atacada pelo rei
+            assírio Senaqueribe, mas Ezequias confiou em Deus, e Jerusalém foi miraculosamente poupada. Ele também é
+            conhecido por sua doença grave e sua oração fervorosa, após a qual Deus lhe concedeu mais 15 anos de vida.
+          </p>
+        </div>
+      </li>
+    </ul>
+
+    <button class="btn-seta" id="btn-avancar">
+      <img src="./src/imagens/seta.png" alt="seta para avançar a imagem" />
+    </button>
+  </main>
+
+  <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
